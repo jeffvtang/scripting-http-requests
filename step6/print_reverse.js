@@ -6,10 +6,8 @@ var requestOptions = {
   path: '/http-examples/step6/reverse.html'
 };
 
-function printReverse (html) {
-
-  /* Write your code here! */
-
+function printReverse(html) {
+  console.log(html.split("").reverse().join(""))
 }
 
 getHTML(requestOptions, printReverse);
