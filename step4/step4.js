@@ -19,7 +19,7 @@ function getHTML(options, callback) {
     // response.on('end', function () {
     //   console.log(dataRec)
     // })
-    response.on('end', function (data) {
+    response.on('end', function () {
       callback(dataRec)
     })
 
